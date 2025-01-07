@@ -1,0 +1,26 @@
+{
+  "name": "nassiry/filesize-handler-s3-extension",
+  "description": "Amazon S3 extension for FileSizeHandler.",
+  "type": "filesize-handler-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "A.S Nassiry",
+      "email": "me@example.com",
+      "homepage": "https://github.com/nassiry/filesize-handler",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "nassiry/filesize-handler": "^1.0",
+    "aws/aws-sdk-php": "^3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Nassiry\\FileSizeUtility\\Extensions\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
