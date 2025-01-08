@@ -10,7 +10,7 @@
 </div>
 
 
-The **S3 Extension** for `FileSizeHandler` enables support for retrieving file sizes from Amazon S3.
+The **S3 Extension** for [FileSizeHandler](https://github.com/nassiry/filesize-handler) enables support for retrieving file sizes from Amazon S3.
 
 ## Installation
 
@@ -46,7 +46,7 @@ echo $handler; // Output: "9.87 MiB"
 ```
 ### Features
 - Fetch file sizes from Amazon S3.
-- Seamlessly integrates with the main `FileSizeHandler` library.
+- Seamlessly integrates with the main [FileSizeHandler](https://github.com/nassiry/filesize-handler) library.
 
 ### Contributing
 Feel free to submit issues or pull requests to improve the package. Contributions are welcome!
