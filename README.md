@@ -12,6 +12,11 @@
 
 The **S3 Extension** for [FileSizeHandler](https://github.com/nassiry/filesize-handler) enables support for retrieving file sizes from Amazon S3.
 
+### Features
+- Fetch file sizes from Amazon S3.
+- Seamlessly integrates with the main [FileSizeHandler](https://github.com/nassiry/filesize-handler) library.
+
+
 ## Installation
 
 Install the extension via Composer:
@@ -40,16 +45,17 @@ $handler = FileSizeHandler::create()
         'my-bucket',         // S3 bucket name
         'path/to/file.txt'   // File path in S3 bucket
     ))
-    ->formattedSize();
+    ->format();
 
 echo $handler; // Output: "9.87 MiB"
 ```
-### Features
-- Fetch file sizes from Amazon S3.
-- Seamlessly integrates with the main [FileSizeHandler](https://github.com/nassiry/filesize-handler) library.
 
 ### Contributing
 Feel free to submit issues or pull requests to improve the package. Contributions are welcome!
+
+### Changelog
+
+See [CHANGELOG](CHANGELOG.md) for release details.
 
 ### License
 This package is open-source software licensed under the [MIT license](LICENSE).

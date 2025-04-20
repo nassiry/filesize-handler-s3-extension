@@ -3,6 +3,7 @@
   "description": "Amazon S3 extension for FileSizeHandler.",
   "type": "filesize-handler-extension",
   "license": "MIT",
+  "version": "1.0.1",
   "authors": [
     {
       "name": "A.S Nassiry",
